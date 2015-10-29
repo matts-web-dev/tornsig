@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title></title>
+    <style type="text/css">
+				*{
+					
+				}
+				 a {
+				  padding: 10px;
+				  color: #3D9FD0;
+				  text-decoration: none;
+				}
+
+				a::after {
+				  display: block;
+				  content:" "; 
+				  height: 2px;
+				  opacity: 0;
+				  background-color: #3D9FD0;
+				  -webkit-transition: all 0.5s ease-in-out;
+				  transition: all 0.5s ease-in-out;
+				}
+
+				a:hover::after,
+				a:focus::after {
+				  opacity: 1;
+				}
+                body{
+                        margin: 0 auto;
+                        background-color: #222;
+                        color: white;
+						width: 730px;
+						
+                }
+                
+                 article{
+				        padding-top: 30px;
+                        width: 730px;
+						padding-bottom: 25px;
+						
+                 }
+				 
+				article h2{
+					text-align:center;
+					 color: #3D9FD0;
+				
+				}
+				
+                nav{    
+				        position:fixed;
+						top:0;
+						width: 730px;
+                        display: -webkit-box;     
+                        display: -moz-box;       
+                        display: -ms-flexbox;     
+                        display: -webkit-flex;     
+                        display: flex;
+						background-color: #222;
+						opacity: .5;
+						z-index:999;
+						
+						
+
+                }
+				nav:hover{
+					opacity: 1;
+				}
+                
+                nav a{
+                        -webkit-box-flex: 1;     
+                        -moz-box-flex: 1;                   
+                        -webkit-flex: 1;     
+                        -ms-flex: 1;             
+                        flex: 1;
+						text-align:center;
+						font-size: 25px;
+						font-weight:bold;
+					
+                  
+                }
+				
+				nav a:hover{
+					background-color: rgba(51,51,51,.5);
+				
+				}
+				
+				.center{
+					display:block;
+					margin: 0 auto;
+				}
+				p{
+					padding: 5px;
+					font-size: 18px; 
+					background-color:transparent;
+					display:block;
+					-webkit-transition: all 0.5s ease-in-out;
+				   transition: all 0.5s ease-in-out;
+				}
+				p:hover{
+					background-color: rgba(51,51,51,.2);
+				}
+				h2{
+					background-color: rgba(51,51,51,.5);
+				}
+				img{
+					opacity: .80;
+					-webkit-transition: all 0.3s ease-in-out;
+				    transition: all 0.3s ease-in-out;
+				}
+				img:hover{
+					opacity: 1;
+				}
+				#button{
+					color: #3D9FD0;
+					cursor:pointer;
+				
+				}
+			
+                
+</style>
+  </head>
+  <body>
+    <nav>
+        <a href="#Bethe1">Be the 1%</a> 
+		<a href="#sigs">Signatures</a> 
+		<a href="#Music">Music</a>
+	</nav>
+	<article>
+	    <div  id="Bethe1">
+			<h2>Be the 1%</h2>
+				<p id="demo">That boy you punched in the hall today. He committed suicide a few minutes ago.
+That girl you called a slut in class. She's a virgin.
+That boy you called lame. He has to work every night to support his family.
+That girl you knocked over. She's already being abused at home.
+That boy you called fat. He's starving himself.
+That old man you made fun of for his scars. He fought for our country.
+that girl you made fun of for crying. Her mother is dying.
+You think you know them. You don't
+Stop bullying. Re-post this. 99%; won't. Be the 1%;.
+
+</p>
+<p id="button"  onclick="copyToClipboard(document.getElementById('demo').innerHTML)">Copy to Clipboard</p>
+		</div>
+		<div  id="sigs"><h2>Signatures</h2></div>
+		<center>
+		<img src="http://i225.photobucket.com/albums/dd63/bozzetticm/stealth-1.png" alt="picture" width="432" />
+		<img src="http://i225.photobucket.com/albums/dd63/bozzetticm/Nunchakas.png" alt="picture" width="432" />
+		<img src="http://i886.photobucket.com/albums/ac69/mattbtw/tearawayattacksig.png" alt="picture" width="432" />
+		<img src="http://i41.tinypic.com/1764a8.jpg%5B/IMG%5Drnrn%5BIMG%5Dhttp://i442.photobucket.com/albums/qq149/KeithChatSK/Torn%20City%20stuff/TornCityRacingC.png" alt="picture" width="432" />
+		<div  id="Music"><h2>Music</h2></div>
+		<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/IXxHwOkYEYs?list=PLkgWEYvTsgqHO6vTqQEqWxBlW_6ykRmYz" frameborder="0" allowfullscreen></iframe>
+	</article>
+
+<script>
+  function copyToClipboard(text) {
+    window.prompt("Copy to clipboard: Ctrl+C, Then press enter", text);
+  }
+</script>
+  </body>
+</html>
